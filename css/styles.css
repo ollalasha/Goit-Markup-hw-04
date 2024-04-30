@@ -351,7 +351,7 @@ address {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item:hover {
-  transform: translate(0%);
+  transform: translateY(0%);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -440,6 +440,9 @@ address {
   display: flex;
   gap: 16px;
 }
+.svg-team {
+  fill: #f4f4fd;
+}
 .svg-team-item-footer {
   width: 40px;
   height: 40px;
@@ -452,6 +455,7 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-svg-team-footer:hover,
 .link-svg-team-footer:focus {
