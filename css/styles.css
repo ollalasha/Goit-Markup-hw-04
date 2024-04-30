@@ -265,8 +265,8 @@ address {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-svg-team .link-svg-team:hover,
-.link-svg-team .link-svg-team:focus {
+.link-svg-team:hover,
+.link-svg-team:focus {
   background-color: #404bbf;
 }
 .list-svg-team {
@@ -444,7 +444,7 @@ address {
   width: 40px;
   height: 40px;
 }
-.link-svg-team {
+.link-svg-team-footer {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
