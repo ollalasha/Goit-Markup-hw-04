@@ -112,8 +112,13 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .menu-link:hover,
 .menu-link:focus {
+  color: #404bbf;
+}
+.menu-link-studio {
+  position: relative;
   color: #404bbf;
 }
 .address-menu {
@@ -253,7 +258,7 @@ address {
   justify-content: center;
   fill: #f4f4fd;
   background-color: #4d5ae5;
-  border-radius: 50px;
+  border-radius: 50%;
   width: 40px;
   height: 40px;
   transition-property: background-color;
@@ -262,7 +267,7 @@ address {
 }
 .link-svg-team:hover,
 .link-svg-team:active {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 .list-svg-team {
   display: flex;
@@ -375,14 +380,37 @@ address {
 }
 
 .portfolio-overlay {
+  overflow: hidden;
   position: absolute;
   top: 0;
   left: 0;
+
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
 }
+.text-overlay {
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  height: 100%;
+  width: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.logo-p-footer {
+  margin-right: 120px;
+}
 .text-footer {
   width: 264px;
   font-weight: 400;
@@ -411,11 +439,32 @@ address {
 .text-color-footer {
   color: #f4f4fd;
 }
-
+.list-svg-team-footer {
+  display: flex;
+  gap: 16px;
+}
+.svg-team-item-footer {
+  width: 40px;
+  height: 40px;
+}
+.link-svg-team {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-svg-team:hover,
+.link-svg-team:focus {
+  background-color: #31d0aa;
+}
 .social-media-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
