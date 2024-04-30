@@ -350,10 +350,13 @@ address {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .portfolio-item:hover {
-  transform: translateY(0%);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.container-overlay:hover {
+  transform: translateY(0%);
 }
 .portfolio-container-text {
   padding: 32px 16px;
