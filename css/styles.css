@@ -265,10 +265,8 @@ address {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-svg-team:hover {
-  background-color: #404bbf;
-}
-.link-svg-team:focus {
+.link-svg-team .link-svg-team:hover,
+.link-svg-team .link-svg-team:focus {
   background-color: #404bbf;
 }
 .list-svg-team {
@@ -345,7 +343,7 @@ address {
   position: relative;
   overflow: hidden;
 }
-.container-overlay:hover {
+.portfolio-item .portfolio-item:hover {
   transform: translateY(0%);
 }
 .portfolio-item {
